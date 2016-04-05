@@ -20,8 +20,6 @@ import albus.util.tuple.IntDoublePair;
 /**
  * Class for learners.
  * 
- * 
- * 
  */
 public abstract class Learner {
 	

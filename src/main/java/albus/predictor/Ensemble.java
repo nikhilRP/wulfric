@@ -7,9 +7,7 @@ import java.util.List;
 
 /**
  * Abstract class for ensembles.
- * 
- * 
- * 
+ *
  */
 public abstract class Ensemble implements Classifier, Regressor {
 

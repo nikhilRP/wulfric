@@ -7,9 +7,7 @@ import albus.predictor.Predictor;
 
 /**
  * Class for reading predictors.
- * 
- * 
- * 
+ *
  */
 public class PredictorReader {
 

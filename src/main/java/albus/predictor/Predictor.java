@@ -8,9 +8,7 @@ import albus.core.Writable;
 
 /**
  * Interface for predictors.
- * 
- * 
- * 
+ *
  */
 public interface Predictor extends Writable, Copyable<Predictor> {
 	
