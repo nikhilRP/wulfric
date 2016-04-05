@@ -13,8 +13,6 @@ import albus.predictor.tree.RegressionTreeLearner.Mode;
 
 /**
  * Class for learning random forests.
- * 
- * 
  *
  */
 public class RandomForestLearner extends Learner {

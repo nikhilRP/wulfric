@@ -15,9 +15,7 @@ import albus.util.StatUtils;
 
 /**
  * Class for generalized linear models (GLMs).
- * 
- * 
- * 
+ *
  */
 public class GLM implements ProbabilisticClassifier, Regressor {
 
