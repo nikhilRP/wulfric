@@ -63,7 +63,7 @@ public class GAMLearner extends HoldoutValidatedLearner {
 	 * Trains a GAM.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.GAMLearner
+	 * usage: albus.predictor.gam.GAMLearner
 	 * -t	train set path
 	 * -m	maximum number of iterations
 	 * [-g]	task between classification (c) and regression (r) (default: r)

@@ -95,7 +95,7 @@ public class Predictor {
 	 * Makes predictions on a dataset.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.evaluation.Predictor
+	 * usage: albus.predictor.evaluation.Predictor
 	 * -d	data set path
 	 * -m	model path
 	 * [-r]	attribute file path

@@ -42,7 +42,7 @@ public class RegressionTreeLearner extends RTreeLearner {
 	 * Trains a regression tree.
 	 *
 	 * <pre>
-	 * Usage: mltk.predictor.tree.RegressionTreeLearner
+	 * usage: albus.predictor.tree.RegressionTreeLearner
 	 * -t	train set path
 	 * [-r]	attribute file path
 	 * [-o]	output model path

@@ -52,7 +52,7 @@ public class LADBoostLearner extends Learner {
 	 * Trains a boosted tree ensemble using least-absolute-deviation as the objective function.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.tree.ensemble.brt.LADBoostLearner
+	 * usage: albus.predictor.tree.ensemble.brt.LADBoostLearner
 	 * -t	train set path
 	 * -m	maximum number of iterations
 	 * [-r]	attribute file path

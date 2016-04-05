@@ -45,7 +45,7 @@ public class LassoLearner extends GLMLearner {
 	 * Trains L1-regularized GLMs.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.glm.LassoLearner
+	 * usage: albus.predictor.glm.LassoLearner
 	 * -t	train set path
 	 * [-g]	task between classification (c) and regression (r) (default: r)
 	 * [-r]	attribute file path

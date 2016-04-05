@@ -29,7 +29,7 @@ public class Discretizer {
 
 	/**
 	 * Discretizes an attribute using bins.
-	 * 
+	 *
 	 * @param instances the dataset to discretize.
 	 * @param attIndex the attribute index.
 	 * @param bins the bins.
@@ -47,7 +47,7 @@ public class Discretizer {
 
 	/**
 	 * Discretized an attribute with specified number of bins.
-	 * 
+	 *
 	 * @param instances the dataset to discretize.
 	 * @param attIndex the attribute index.
 	 * @param maxNumBins the number of bins.
@@ -59,7 +59,7 @@ public class Discretizer {
 
 	/**
 	 * Compute bins for a specified attribute.
-	 * 
+	 *
 	 * @param instances the dataset to discretize.
 	 * @param attIndex the attribute index.
 	 * @param maxNumBins the number of bins.
@@ -132,7 +132,7 @@ public class Discretizer {
 
 	/**
 	 * Compute bins for a list of values.
-	 * 
+	 *
 	 * @param x the vector of input data.
 	 * @param maxNumBins the number of bins.
 	 */
@@ -203,7 +203,7 @@ public class Discretizer {
 
 	/**
 	 * Compute bins for a list of values.
-	 * 
+	 *
 	 * @param list the histogram.
 	 * @param maxNumBins the number of bins.
 	 */
@@ -304,7 +304,7 @@ public class Discretizer {
 
 		@Argument(name = "-r", description = "attribute file path")
 		String attPath = null;
-		
+
 		@Argument(name = "-t", description = "training file path")
 		String trainPath = null;
 
@@ -327,9 +327,9 @@ public class Discretizer {
 
 	/**
 	 * <p>
-	 * 
+	 *
 	 * <pre>
-	 * Usage: mltk.core.processor.Discretizer
+	 * Usage: albus.core.processor.Discretizer
 	 * -i	input dataset path
 	 * -o	output dataset path
 	 * [-r]	attribute file path
@@ -338,9 +338,9 @@ public class Discretizer {
 	 * [-m]	output attribute file path
 	 * [-n]	maximum num of bins (default: 256)
 	 * </pre>
-	 * 
+	 *
 	 * </p>
-	 * 
+	 *
 	 * @param args the command line arguments.
 	 * @throws Exception
 	 */

@@ -94,7 +94,7 @@ public class FAST {
 	 * Ranks pairwise interactions using FAST.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.interaction.FAST
+	 * usage: albus.predictor.gam.interaction.FAST
 	 * -d	dataset path
 	 * -R	residual path
 	 * -o	output path

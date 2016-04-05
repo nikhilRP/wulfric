@@ -39,7 +39,7 @@ public class RidgeLearner extends GLMLearner {
 	 * Trains L2-regularized GLMs.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.glm.RidgeLearner
+	 * usage: albus.predictor.glm.RidgeLearner
 	 * -t	train set path
 	 * [-g]	task between classification (c) and regression (r) (default: r)
 	 * [-r]	attribute file path

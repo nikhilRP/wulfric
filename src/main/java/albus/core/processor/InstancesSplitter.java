@@ -17,7 +17,7 @@ public class InstancesSplitter {
 	 * Splits the dataset according to the ratio. This method returns two instances objects, the size of the first one
 	 * is 100% * ratio of the orignal dataset while the size of the second one is 100% * (1 - ratio) of the orignal
 	 * dataset.
-	 * 
+	 *
 	 * @param instances the dataset.
 	 * @param ratio the ratio.
 	 * @return two smaller datasets.
@@ -39,7 +39,7 @@ public class InstancesSplitter {
 
 	/**
 	 * Splits the dataset into k equi-sized datasets.
-	 * 
+	 *
 	 * @param instances the dataset.
 	 * @param k the number of datasets to return.
 	 * @return k equi-sized datasets.
@@ -60,7 +60,7 @@ public class InstancesSplitter {
 	/**
 	 * Creates cross validation folds from a dataset. For each cross validation fold contains a training set and a test
 	 * set.
-	 * 
+	 *
 	 * @param instances the dataset.
 	 * @param k the number of cross validation folds.
 	 * @return the cross validation datasets.
@@ -86,7 +86,7 @@ public class InstancesSplitter {
 	/**
 	 * Creates cross validation folds from a dataset. For each cross validation fold contains a training set, a
 	 * validation set and a test set.
-	 * 
+	 *
 	 * @param instances the dataset.
 	 * @param k the number of cross validation folds.
 	 * @param ratio the ratio that controls how many points in the training set for each fold.
@@ -133,16 +133,16 @@ public class InstancesSplitter {
 
 	/**
 	 * Splits a dataset.
-	 * 
+	 *
 	 * <pre>
-	 * Usage: mltk.core.processor.InstancesSplitter
+	 * Usage: albus.core.processor.InstancesSplitter
 	 * -r	attribute file path
 	 * -i	input dataset path
 	 * -o	output directory path
 	 * [-c]	splitting mode:parameter. Splitting mode can be split (s) and cross validation (c) (default: c:5)
 	 * [-s]	seed of the random number generator (default: 0)
 	 * </pre>
-	 * 
+	 *
 	 * @param args the command line arguments.
 	 * @throws Exception
 	 */

@@ -75,7 +75,7 @@ public class GA2MLearner extends HoldoutValidatedLearner {
 	 * Trains a GA2M.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.GA2MLearner
+	 * usage: albus.predictor.gam.GA2MLearner
 	 * -t	train set path
 	 * -i	input model path
 	 * -I	list of pairwise interactions path

@@ -85,7 +85,7 @@ public class Diagnostics {
 	 * Generates term importance for GAMs.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.tool.Diagnostics
+	 * usage: albus.predictor.gam.tool.Diagnostics
 	 * -d	dataset path
 	 * -i	input model path
 	 * -o	output path

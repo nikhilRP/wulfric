@@ -67,7 +67,7 @@ public class AdditiveGrovesLearner extends Learner {
 	 * Trains an additive groves model.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.tree.ensemble.ag.AdditiveGrovesLearner
+	 * usage: albus.predictor.tree.ensemble.ag.AdditiveGrovesLearner
 	 * -t	train set path
 	 * -v	valid set path
 	 * [-r]	attribute file path

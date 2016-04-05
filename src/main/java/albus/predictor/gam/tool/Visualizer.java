@@ -315,7 +315,7 @@ public class Visualizer {
 	 * Generates scripts for visualizing GAMs.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.tool.Visualizer
+	 * usage: albus.predictor.gam.tool.Visualizer
 	 * -r	attribute file path
 	 * -d	dataset path
 	 * -i	input model path

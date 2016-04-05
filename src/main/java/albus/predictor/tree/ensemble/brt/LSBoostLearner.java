@@ -51,7 +51,7 @@ public class LSBoostLearner extends Learner {
 	 * Trains a boosted tree ensemble using least square as the objective function.
 	 *
 	 * <pre>
-	 * Usage: mltk.predictor.tree.ensemble.brt.LSBoostLearner
+	 * usage: albus.predictor.tree.ensemble.brt.LSBoostLearner
 	 * -t	train set path
 	 * -m	maximum number of iterations
 	 * [-v]	valid set path

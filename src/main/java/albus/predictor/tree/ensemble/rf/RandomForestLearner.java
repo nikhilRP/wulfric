@@ -39,7 +39,7 @@ public class RandomForestLearner extends Learner {
 	 * features to consider is the number of total features, this procedure builds bagged tree.
 	 *
 	 * <pre>
-	 * Usage: mltk.predictor.tree.ensemble.rf.RandomForestLearner
+	 * Usage: albus.predictor.tree.ensemble.rf.RandomForestLearner
 	 * -t	train set path
 	 * [-r]	attribute file path
 	 * [-o]	output model path

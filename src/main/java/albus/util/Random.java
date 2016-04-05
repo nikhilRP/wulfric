@@ -2,7 +2,9 @@ package albus.util;
 
 /**
  * Class for global random object.
- * 
+ *
+ * @author Nikhil
+ *
  */
 public class Random {
 
@@ -15,7 +17,7 @@ public class Random {
 
 	/**
 	 * Returns the random object.
-	 * 
+	 *
 	 * @return the singleton random object.
 	 */
 	public static Random getInstance() {
@@ -27,7 +29,7 @@ public class Random {
 
 	/**
 	 * Sets the random seed.
-	 * 
+	 *
 	 * @param seed the random seed.
 	 */
 	public void setSeed(long seed) {
@@ -37,7 +39,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>int</code> value from this random number generator's
 	 * sequence.
-	 * 
+	 *
 	 * @return a random integer.
 	 */
 	public int nextInt() {
@@ -47,7 +49,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>int</code> value between 0 (inclusive) and n
 	 * (exclusive) from this random number generator's sequence.
-	 * 
+	 *
 	 * @param n the range.
 	 * @return a random integer in [0, n- 1].
 	 */
@@ -58,7 +60,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>double</code> value between 0.0 and 1.0 from this
 	 * random number generator's sequence.
-	 * 
+	 *
 	 * @return a random <code>double</code> value.
 	 */
 	public double nextDouble() {
@@ -68,7 +70,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>float</code> value between 0.0 and 1.0 from this
 	 * random number generator's sequence.
-	 * 
+	 *
 	 * @return a random <code>float</code> value.
 	 */
 	public float nextFloat() {
@@ -78,7 +80,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, Gaussian ("normally") distributed <code>
 	 * double</code> value with mean 0.0 and standard deviation 1.0 from this random number generator's sequence.
-	 * 
+	 *
 	 * @return a random <code>double</code> value.
 	 */
 	public double nextGaussian() {
@@ -88,7 +90,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>long</code> value from this random number generator's
 	 * sequence.
-	 * 
+	 *
 	 * @return a random <code>long</code> value.
 	 */
 	public long nextLong() {
@@ -98,7 +100,7 @@ public class Random {
 	/**
 	 * Returns the next pseudorandom, uniformly distributed <code>boolean</code> value from this random number
 	 * generator's sequence.
-	 * 
+	 *
 	 * @return a random <code>boolean</code> value.
 	 */
 	public boolean nextBoolean() {
@@ -107,7 +109,7 @@ public class Random {
 
 	/**
 	 * Generates random bytes and places them into a user-supplied byte array.
-	 * 
+	 *
 	 * @param bytes the byte array to fill with random bytes.
 	 */
 	public void nextBytes(byte[] bytes) {
@@ -116,7 +118,7 @@ public class Random {
 
 	/**
 	 * Returns the backend Java random object.
-	 * 
+	 *
 	 * @return the backend Java random object.
 	 */
 	public java.util.Random getRandom() {

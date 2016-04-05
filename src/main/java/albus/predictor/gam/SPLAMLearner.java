@@ -52,7 +52,7 @@ public class SPLAMLearner extends Learner {
 	 * Trains a SPLAM.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.SPLAMLearner
+	 * usage: albus.predictor.gam.SPLAMLearner
 	 * -t	train set path
 	 * [-g]	task between classification (c) and regression (r) (default: r)
 	 * [-r]	attribute file path

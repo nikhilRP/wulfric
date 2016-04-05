@@ -14,13 +14,13 @@ import albus.predictor.io.PredictorReader;
 
 /**
  * Class for making evaluations.
- * 
+ *
  */
 public class Evaluator {
 
 	/**
 	 * Returns the area under ROC curve.
-	 * 
+	 *
 	 * @param classifier a classifier that outputs probability.
 	 * @param instances the instances.
 	 * @return the area under ROC curve.
@@ -38,7 +38,7 @@ public class Evaluator {
 
 	/**
 	 * Returns the root mean squared error.
-	 * 
+	 *
 	 * @param preds the predictions.
 	 * @param targets the targets.
 	 * @return the root mean squared error.
@@ -55,7 +55,7 @@ public class Evaluator {
 
 	/**
 	 * Returns the root mean squared error.
-	 * 
+	 *
 	 * @param regressor the regressor.
 	 * @param instances the instances.
 	 * @return the root mean squared error.
@@ -75,7 +75,7 @@ public class Evaluator {
 
 	/**
 	 * Returns the classification error.
-	 * 
+	 *
 	 * @param classifier the classifier.
 	 * @param instances the instances.
 	 * @return the classification error.
@@ -112,15 +112,15 @@ public class Evaluator {
 
 	/**
 	 * Evaluates a predictor.
-	 * 
+	 *
 	 * <pre>
-	 * Usage: mltk.predictor.evaluation.Evaluator
+	 * Usage: albus.predictor.evaluation.Evaluator
 	 * -d	data set path
 	 * -m	model path
 	 * [-r]	attribute file path
 	 * [-e]	AUC (a), Error (c), RMSE (r) (default: r)
 	 * </pre>
-	 * 
+	 *
 	 * @param args the command line arguments.
 	 * @throws Exception
 	 */

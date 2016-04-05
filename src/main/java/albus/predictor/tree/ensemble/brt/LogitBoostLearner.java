@@ -58,7 +58,7 @@ public class LogitBoostLearner extends TreeEnsembleLearner {
 	 * Trains an additive logistic regression.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.tree.ensemble.brt.LogitBoostLearner
+	 * usage: albus.predictor.tree.ensemble.brt.LogitBoostLearner
 	 * -t	train set path
 	 * -m	maximum number of iterations
 	 * [-r]	attribute file path

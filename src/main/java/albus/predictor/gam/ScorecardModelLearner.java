@@ -35,7 +35,7 @@ public class ScorecardModelLearner extends Learner {
 	 * Trains a scorecard model.
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.gam.ScorecardModelLearner
+	 * usage: albus.predictor.gam.ScorecardModelLearner
 	 * -t	train set path
 	 * -m	maximum number of iterations
 	 * [-g]	task between classification (c) and regression (r) (default: r)

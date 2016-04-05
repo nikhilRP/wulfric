@@ -44,7 +44,7 @@ public class ElasticNetLearner extends GLMLearner {
 	 * <p>
 	 * 
 	 * <pre>
-	 * Usage: mltk.predictor.glm.ElasticNetLearner
+	 * usage: albus.predictor.glm.ElasticNetLearner
 	 * -t	train set path
 	 * [-g]	task between classification (c) and regression (r) (default: r)
 	 * [-r]	attribute file path
