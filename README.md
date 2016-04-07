@@ -16,5 +16,5 @@ Include the repo in other projects using:
 	<dependency>
 		<groupId>com.github.nikhilRP</groupId>
 		<artifactId>wulfric</artifactId>
-	    	<version>v0.1</version>
+		<version>v0.1</version>
 	</dependency>
