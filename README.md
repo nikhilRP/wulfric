@@ -1,7 +1,5 @@
 # Wulfric
 Data science algorithms in Java
-Warning: Not enough test coverage to say that there are no bugs. Use at your own risk.
-
 
 Include the repo in other projects using:
 
@@ -17,3 +15,5 @@ Include the repo in other projects using:
 		<artifactId>wulfric</artifactId>
 		<version>v0.1</version>
 	</dependency>
+	
+Warning: Not enough test coverage to say that there are no bugs. Use at your own risk.
