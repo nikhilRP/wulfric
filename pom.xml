@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>wulfric</groupId>
   <artifactId>wulfric</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>v0.1</version>
   <packaging>jar</packaging>
 
   <properties>
