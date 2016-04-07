@@ -6,15 +6,15 @@ Warning: Not enough test coverage to say that there are no bugs. Use at your own
 
 Include the repo in other projects using:
 
-    <repositories>
+	<repositories>
   		<repository>
-  		    <id>jitpack.io</id>
-  		    <url>https://jitpack.io</url>
+  	    		<id>jitpack.io</id>
+  	    		<url>https://jitpack.io</url>
   		</repository>
-	  </repositories>
+  	</repositories>
 	  
-	  <dependency>
-	    <groupId>com.github.nikhilRP</groupId>
-	    <artifactId>wulfric</artifactId>
-	    <version>v0.1</version>
+	<dependency>
+		<groupId>com.github.nikhilRP</groupId>
+		<artifactId>wulfric</artifactId>
+	    	<version>v0.1</version>
 	</dependency>
