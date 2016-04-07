@@ -25,7 +25,7 @@ import wulfric.util.VectorUtils;
  * 
  * 
  */
-public class ElasticNetLearner extends GLMLearner {
+public class ElasticNet extends GLMLearner {
 
 	static class Options extends LearnerWithTaskOptions {
 
@@ -44,7 +44,7 @@ public class ElasticNetLearner extends GLMLearner {
 	 * <p>
 	 * 
 	 * <pre>
-	 * usage: wulfric.predictor.glm.ElasticNetLearner
+	 * usage: wulfric.predictor.glm.ElasticNet
 	 * -t	train set path
 	 * [-g]	task between classification (c) and regression (r) (default: r)
 	 * [-r]	attribute file path
@@ -61,7 +61,7 @@ public class ElasticNetLearner extends GLMLearner {
 	 */
 	public static void main(String[] args) throws Exception {
 		Options opts = new Options();
-		CmdLineParser parser = new CmdLineParser(ElasticNetLearner.class, opts);
+		CmdLineParser parser = new CmdLineParser(ElasticNet.class, opts);
 		Task task = null;
 		try {
 			parser.parse(args);
@@ -72,7 +72,7 @@ public class ElasticNetLearner extends GLMLearner {
 		}
 		Instances trainSet = InstancesReader.read(opts.attPath, opts.trainPath);
 
-		ElasticNetLearner learner = new ElasticNetLearner();
+		ElasticNet learner = new ElasticNet();
 		learner.setVerbose(opts.verbose);
 		learner.setTask(task);
 		learner.setLambda(opts.lambda);
@@ -99,7 +99,7 @@ public class ElasticNetLearner extends GLMLearner {
 	/**
 	 * Constructor.
 	 */
-	public ElasticNetLearner() {
+	public ElasticNet() {
 		verbose = false;
 		fitIntercept = true;
 		maxNumIters = -1;
