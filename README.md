@@ -1,4 +1,4 @@
-# albus
+# Wulfric
 Data science algorithms in Java
 
-This is repository contains algorithms that are implemented and used in different projects I worked on.
+Warning: Not enough test coverage to say that there are no bugs. Use at your own risk.
