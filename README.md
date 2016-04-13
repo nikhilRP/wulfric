@@ -1,6 +1,5 @@
 # Wulfric
-Data science algorithms in Java
-Include the repo in other projects using steps below.
+Data science algorithms in Java. Include the repo in other projects using steps below.
 
 Step 1: Add repository to the POM:
 
